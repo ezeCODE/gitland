@@ -1,0 +1,11 @@
+@import './devices';
+.h2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    @include tablet {
+        font-size: 3em;
+    }
+    @include desktop {
+        font-size: 5em;
+    }
+}
