@@ -1,6 +1,12 @@
 .bg-bluedarck {
     background-color: rgb(5, 29, 47);
 }
+.bg-bluedarcksoft {
+    background-color: rgb(16, 60, 94);
+}
+.bg-celeste {
+    background-color: hsl(208, 99%, 65%);
+}
 .bg-arena {
     background-color: rgb(248, 199, 119);
 }
@@ -9,6 +15,18 @@
 }
 .bg-gradient-1 {
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.bg-gradient-2 {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.bg-gradient-3 {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.bg-gradient-4 {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.bg-gradient-5 {
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
 }
 .color-white {
     color: white;
