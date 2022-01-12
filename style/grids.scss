@@ -46,18 +46,14 @@
     grid-template-columns: repeat(4, 1fr);
 }
 .cols-x-1-x2x {
+    grid-template-columns: repeat(1, 1fr);
     @include tablet {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    @include desktop {
         grid-template-columns: repeat(1, 1fr 2fr);
     }
 }
 .cols-x-1-x2x-x3 {
+    grid-template-columns: repeat(1, 1fr);
     @include tablet {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    @include desktop {
         grid-template-columns: repeat(1, 1fr 2fr 1fr);
     }
 }
