@@ -1,4 +1,6 @@
 @import './devices';
+// font-family: 'Barlow', sans-serif;
+// font-family: 'Roboto', sans-serif;
 .h2 {
     font-family: 'Barlow', sans-serif;
     font-size: 2em;
@@ -8,4 +10,18 @@
     @include desktop {
         font-size: 5em;
     }
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.font-Barlow {
+    font-family: 'Barlow', sans-serif;
+}
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    line-height: 24px;
 }
